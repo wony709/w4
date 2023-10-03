@@ -8,8 +8,8 @@ function randomValueFromArray(array){
 }
 
 const storyText = "気温 華氏94度で外は寒かった。 :insertx:は出かけた。 :inserty:についた。 :insertz: 体重300ポンドの:insertx:は驚いたが、ボブは驚かなかった。 :inserty:ではよくあることだった。";
-const insertX = ["ブチャラティ", "カナメ", "てん"];
-const insertY = ["ディズニーランド", "スターバックス", "東京都庁"];
+const insertX = ["ブチャラティ", "カナメ", "コジコジ", "ポムポムプリン", "はまじ"];
+const insertY = ["ディズニーランド", "スターバックス", "ムーミン谷", "ヴェネツィア", "サントリーニ"];
 const insertZ = ["水で溢れかえっていた。", "人々が皆ボックスステップを踏んでいた。", "人は皆後ろ向きに歩いていた。"];
 
 randomize.addEventListener('click', result);
