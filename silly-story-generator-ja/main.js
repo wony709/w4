@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-const storyText = "気温 華氏94度で外は寒かった。 :insertx:は出かけた。 :inserty:についた。 :insertz: 体重300ポンドの:insertx:は驚いたが、ボブは驚かなかった。 :inserty:ではよくあることだった。";
+const storyText = "気温 華氏40度で外は寒かった。 :insertx:は出かけた。 :inserty:についた。 :insertz: 体重300ポンドの:insertx:は驚いたが、ボブは驚かなかった。 :inserty:ではよくあることだった。";
 const insertX = ["ブチャラティ", "カナメ", "コジコジ", "ポムポムプリン", "クロミ"];
 const insertY = ["ディズニーランド", "メルヘンの国", "ムーミン谷", "ヴェネツィア", "サントリーニ", "マリーランドの森"];
 const insertZ = ["水で溢れかえっていた。", "大きな耳でパタパタ空を飛んでいた", "人は皆後ろ向きに歩いていた。", "ふわふわの雲でいっぱいだった。"];
@@ -34,8 +34,8 @@ function result() {
 
   if (document.getElementById("uk").checked) {
     const weight = `${Math.round(300*0.0714286)} kg`;
-    const temperature =  `摂氏${Math.round((94-32) * 5 / 9)}`;
-    newStory = newStory.replace("華氏94", temperature);
+    const temperature =  `摂氏${Math.round((40-32) * 5 / 9)}`;
+    newStory = newStory.replace("華氏40", temperature);
     newStory = newStory.replace("300ポンド", weight);
   }
 
